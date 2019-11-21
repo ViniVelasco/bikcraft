@@ -166,7 +166,6 @@ img {
   width: 100%;
   margin-top: 92px;
   height: 160px;
-  background-size: cover;
   text-align: center;
   color: #fff;
   padding-top: 30px;
@@ -387,4 +386,22 @@ padding: 10px 20px 20px 20px;
   width: 100%;
   background: #fec63e;
   padding: 20px 0;
+}
+
+.orcamento_dados ul {
+  padding-right: 60px;
+}
+
+.orcamento_dados ul li {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
+.orcamento ul li:nth-child(odd) {
+  background: #1d1d1d;
+}
+
+.orcamento_dados p {
+  margin: 8px 0;
 }
