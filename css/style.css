@@ -447,3 +447,16 @@ padding: 10px 20px 20px 20px;
   transform:  none;
 }
 
+.nao-aparece {
+  visibility: hidden;
+  height: 0px;
+  position: absolute;
+}
+
+#form-sucesso {
+  color: #31aa39;
+}
+
+#form-erro {
+  color: #f64540;
+}
